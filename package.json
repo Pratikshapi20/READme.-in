@@ -1,0 +1,41 @@
+{
+  "name": "project-new",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@google-cloud/translate": "^9.2.0",
+    "@sendgrid/mail": "^8.1.6",
+    "axios": "^1.11.0",
+    "bcrypt": "^6.0.0",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^16.6.1",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "express-session": "^1.18.2",
+    "fontkit": "^2.0.4",
+    "google-translate-api": "^2.3.0",
+    "google-translate-api-x": "^10.7.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.17.0",
+    "multer": "^2.0.2",
+    "nodemailer": "^7.0.5",
+    "nodemon": "^3.1.10",
+    "pdfkit": "^0.17.1",
+    "socket.io": "^4.8.1",
+    "translate": "^3.0.1",
+    "translate-google": "^1.5.0"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1",
+    "tailwindcss": "^4.1.11"
+  }
+}
